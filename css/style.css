@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Play&display=swap');
+:root{
+  --main-bg-color: #2874f0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background: var(--main-bg-color);
+  font-family: 'Play', sans-serif;
+}
+
+nav{
+  display: flex;
+}
+
+.flipkart{
+  display: flex;
+  align-items: center;
+}
+
+.flipkart img{
+  width: 88px;
+  padding: 0 25px;
+}
+
+nav ul{
+  height: 58px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    height: 25px;
+    width: 30vw;
+    border-radius: 4.5px;
+    margin: 0 16px 0 53px;
+}
+nav ul li{
+  list-style: none;
+  padding: 0 23px;
+}
+
+nav ul li a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(241, 250, 255);
+    font-weight:bolder;
+  }
+.container{
+  min-height:calc(100vh - 58px - 12vh);
+}
+
+footer{
+  background-color: var(--main-bg-color);
+  color: white;
+  height: 12vh;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.slider img{
+  width: 72rem;
+  height: 26rem;
+  margin: 7px 16.2vw;
+}
+
+.card{
+  max-width: 91vw;
+  margin: auto;
+}
+
+.card-item{
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 14px;
+}
+
+.cards{
+  display: flex;
+}

@@ -1,0 +1,33 @@
+@media screen and (max-width:1000px) {
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+    nav{
+        flex-direction: column;
+    }
+    .slider img{
+    width: 84vw;
+    height: 26vh;
+    margin: 12px 6.2vw;
+    }
+
+    .flipkart{
+        justify-content: center;
+        margin: 12px 0;
+    }
+    nav ul{
+        justify-content: center;
+    }
+
+    .search{
+        justify-content: center;
+    }
+
+    .search input{
+        margin: 12px 16px;
+    }
+
+    nav ul{
+        height: 12px;
+    }
+}
